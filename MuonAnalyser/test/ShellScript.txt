@@ -7,10 +7,10 @@ do for type in `echo "1 2"`
 done
 done
 done
+--
 
-for roccurve.py
-
-python roccurve.py PU200 1 Tight; python roccurve.py PU200 1 Loose; python roccurve.py PU200 2 Tight; python roccurve.py PU200 2 Loose; python roccurve.py PU140 1 Tight; python roccurve.py PU140 1 Loose; python roccurve.py PU140 2 Tight;python roccurve.py PU140 2 Loose; python roccurve.py PU0 1 Tight; python roccurve.py PU0 1 Loose; python roccurve.py PU0 2 Tight; python roccurve.py PU0 2 Loose;
+python ../python/universaldrawer.py evalscr/20170326/generaterates_newenv.py
+--
 
 
 python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/eff/Pt_PF.json;
@@ -44,3 +44,5 @@ python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rerec
 python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Pt_Trk.json;
 python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Eta_PF.json;
 python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Eta_Trk.json;
+
+python roccurve.py PU200 1 Tight; python roccurve.py PU200 1 Loose; python roccurve.py PU200 2 Tight; python roccurve.py PU200 2 Loose; python roccurve.py PU140 1 Tight; python roccurve.py PU140 1 Loose; python roccurve.py PU140 2 Tight;python roccurve.py PU140 2 Loose; python roccurve.py PU0 1 Tight; python roccurve.py PU0 1 Loose; python roccurve.py PU0 2 Tight; python roccurve.py PU0 2 Loose;

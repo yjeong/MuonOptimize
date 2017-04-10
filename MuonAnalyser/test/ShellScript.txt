@@ -1,0 +1,46 @@
+echo -n "" > isovaluecutlist.txt
+
+for id in `echo "Loose Tight"`
+do for pu in `echo "PU0 PU140 PU200"`
+do for type in `echo "1 2"`
+    do python roccurve.py $pu $type $id >> isovaluecutlist.txt &
+done
+done
+done
+
+for roccurve.py
+
+python roccurve.py PU200 1 Tight; python roccurve.py PU200 1 Loose; python roccurve.py PU200 2 Tight; python roccurve.py PU200 2 Loose; python roccurve.py PU140 1 Tight; python roccurve.py PU140 1 Loose; python roccurve.py PU140 2 Tight;python roccurve.py PU140 2 Loose; python roccurve.py PU0 1 Tight; python roccurve.py PU0 1 Loose; python roccurve.py PU0 2 Tight; python roccurve.py PU0 2 Loose;
+
+
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/eff/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/eff/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/bkgrate/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/bkgrate/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/bkgrate/Eta_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Tight/bkgrate/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/eff/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/eff/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/bkgrate/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/bkgrate/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/bkgrate/Eta_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_withvtxcut/rereco/Loose/bkgrate/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/eff/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/bkgrate/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/bkgrate/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/bkgrate/Eta_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Tight/bkgrate/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/eff/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/eff/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/eff/Eta_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/eff/Eta_Trk.json
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Pt_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Pt_Trk.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Eta_PF.json;
+python ../python/universaldrawer.py jsonconf/20170326/effbkgplots_novtxcut/rereco/Loose/bkgrate/Eta_Trk.json;

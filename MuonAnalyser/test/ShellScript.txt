@@ -9,7 +9,7 @@ done
 done
 --
 
-python ../python/universaldrawer.py evalscr/20170326/generaterates_newenv.py
+python evalscr/20170326/generaterates_newenv.py
 --
 
 

@@ -3,21 +3,21 @@
   "vars": [
     {
       "color": 4, 
-      "effrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.21600 ) || ( 1.7 < abs(muon.Eta()) > 1.7 && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.284 )", 
+      "effrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.21600 ) || ( 1.7 < abs(muon.Eta())  && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.284 )", 
       "shape": 20, 
       "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_ZMM_PU0_pre4_rereco02_170501.root", 
       "title": "Phase II Signal PU0 - pre4"
     }, 
     {
       "color": 1, 
-      "effrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.372 ) || ( 1.7 < abs(muon.Eta()) > 1.7 && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.964 )", 
+      "effrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.372 ) || ( 1.7 < abs(muon.Eta())  && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.964 )", 
       "shape": 34, 
       "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_ZMM_PU140_pre4_rereco02_170501.root", 
       "title": "Phase II Signal PU140 - pre4"
     }, 
     {
       "color": 2, 
-      "effrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.44000 ) || ( 1.7 < abs(muon.Eta()) > 1.7 && muon.Eta() < 2.4 && muon_PFIsolation03 < 1.16 ) ", 
+      "effrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.44000 ) || ( 1.7 < abs(muon.Eta())  && muon.Eta() < 2.4 && muon_PFIsolation03 < 1.16 ) ", 
       "shape": 21, 
       "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_ZMM_PU200_pre4_rereco02_170501.root", 
       "title": "Phase II Signal PU200 - pre4"

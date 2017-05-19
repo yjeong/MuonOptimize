@@ -3,21 +3,21 @@
   "vars": [
     {
       "color": 4, 
-      "bkgrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.10000 ) || ( 1.7 < abs(muon.Eta()) > 1.7 && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.192 )", 
+      "bkgrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.10000 ) || ( 1.7 < abs(muon.Eta()) && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.192 )", 
       "shape": 20, 
       "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU0_pre4_rereco02_170501.root", 
       "title": "Phase II QCD PU0 - pre4"
     }, 
     {
       "color": 1, 
-      "bkgrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.23600 ) || ( 1.7 < abs(muon.Eta()) > 1.7 && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.716 ) ", 
+      "bkgrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.23600 ) || ( 1.7 < abs(muon.Eta()) && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.716 ) ", 
       "shape": 34, 
       "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU140_pre4_rereco02_170501.root", 
       "title": "Phase II QCD PU140 - pre4"
     }, 
     {
       "color": 2, 
-      "bkgrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.27600 ) || ( 1.7 < abs(muon.Eta()) > 1.7 && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.888) ", 
+      "bkgrate": "( abs(muon.Eta()) < 1.7 && muon_PFIsolation03 < 0.27600 ) || ( 1.7 < abs(muon.Eta()) && muon.Eta() < 2.4 && muon_PFIsolation03 < 0.888) ", 
       "shape": 21, 
       "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU200_pre4_rereco02_170501.root", 
       "title": "Phase II QCD PU200 - pre4"

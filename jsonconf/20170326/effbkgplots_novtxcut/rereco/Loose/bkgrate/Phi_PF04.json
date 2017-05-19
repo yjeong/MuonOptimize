@@ -1,0 +1,51 @@
+{
+  "cut": "muon.Pt() > %(pT)s && abs(muon.Eta()) < 1.7", 
+  "vars": [
+    {
+      "color": 4, 
+      "bkgrate": "muon_PFIsolation04 < 0.30800", 
+      "shape": 20, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU0_pre4_rereco02_170501.root", 
+      "title": "Phase II QCD PU0 - pre4"
+    }, 
+    {
+      "color": 1, 
+      "bkgrate": "muon_PFIsolation04 < 0.54800", 
+      "shape": 34, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU140_pre4_rereco02_170501.root", 
+      "title": "Phase II QCD PU140 - pre4"
+    }, 
+    {
+      "color": 2, 
+      "bkgrate": "muon_PFIsolation04 < 0.65200", 
+      "shape": 21, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU200_pre4_rereco02_170501.root", 
+      "title": "Phase II QCD PU200 - pre4"
+    }
+  ], 
+  "min": 0.0, 
+  "max": 0.35, 
+  "plotvar": "muon.Phi()", 
+  "tree": "reco", 
+  "binning": [
+    32, 
+    0, 
+    3.2
+  ], 
+  "filename": "plots/20170326/effbkgplots_novtxcut/rereco/Loose_1.7/bkgrate/Phi_PF04.png", 
+  "bkgrate": "muon_is%(ID)s && !muon_signal", 
+  "cutconfig": {
+    "Eta": "2.4", 
+    "ID": "Loose_1.7", 
+    "pT": "15"
+  }, 
+  "xtitle": "#phi", 
+  "title": "Z/#gamma^{*}#rightarrow#font[12]{#mu#mu} and QCD events, p_{T} > %(pT)s GeV, |#eta| < %(Eta)s\n%(ID)s Muon, cut by PF04 isolation", 
+  "legend": {
+    "top": 0.63, 
+    "right": 0.85, 
+    "bottom": 0.78, 
+    "left": 0.5
+  }, 
+  "ytitle": "Background Rate"
+}

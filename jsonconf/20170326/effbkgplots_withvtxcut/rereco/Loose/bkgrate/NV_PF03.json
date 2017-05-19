@@ -1,0 +1,56 @@
+{
+  "cut": "muon.Pt() > %(pT)s && abs(muon.Eta()) < 1.7 && abs(muon_poszPV0 - muon_poszSimPV) < 0.5", 
+  "vars": [
+    {
+      "color": 4, 
+      "bkgrate": "muon_PFIsolation03 < 0.21600", 
+      "shape": 20, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU0_pre4_rereco02_170501.root", 
+      "title": "Phase II QCD PU0 - pre4"
+    }, 
+    {
+      "color": 1, 
+      "bkgrate": "muon_PFIsolation03 < 0.37200", 
+      "shape": 34, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU140_pre4_rereco02_170501.root", 
+      "title": "Phase II QCD PU140 - pre4"
+    }, 
+    {
+      "color": 2, 
+      "bkgrate": "muon_PFIsolation03 < 0.44000", 
+      "shape": 21, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_QCD_PU200_pre4_rereco02_170501.root", 
+      "title": "Phase II QCD PU200 - pre4"
+    }
+  ], 
+  "min": 0, 
+  "max": 0.35, 
+  "plotvar": "nvertex", 
+  "tree": "reco", 
+  "binning": [
+    60, 
+    0, 
+    240
+  ], 
+  "filename": "plots/20170326/effbkgplots_withvtxcut/rereco/Loose_1.7/bkgrate/NV_PF03.png", 
+  "bkgrate": "muon_is%(ID)s && !muon_signal", 
+  "cutconfig": {
+    "Eta": "2.4", 
+    "ID": "Loose_1.7", 
+    "pT": "15"
+  }, 
+  "xtitle": "Numer of vertex", 
+  "bkgdenominator": {
+    "max": 0.5, 
+    "name": "vertex reco vs sim", 
+    "min": -0.5
+  }, 
+  "title": "Z/#gamma^{*}#rightarrow#font[12]{#mu#mu} and QCD events, p_{T} > %(pT)s GeV, |#eta| < %(Eta)s\n|z_{reco} - z_{sim}| < 0.5, %(ID)s Muon, cut by PF03 isolation", 
+  "legend": {
+    "top": 0.63, 
+    "right": 0.85, 
+    "bottom": 0.78, 
+    "left": 0.5
+  }, 
+  "ytitle": "Background Rate"
+}

@@ -1,0 +1,51 @@
+{
+  "cut": "muon.Pt() > %(pT)s && abs(muon.Eta()) < 1.7", 
+  "vars": [
+    {
+      "color": 4, 
+      "effrate": "muon_PFIsolation04 < 0.15600", 
+      "shape": 20, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_ZMM_PU0_pre4_rereco02_170501.root", 
+      "title": "Phase II Signal PU0 - pre4"
+    }, 
+    {
+      "color": 1, 
+      "effrate": "muon_PFIsolation04 < 0.33600", 
+      "shape": 34, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_ZMM_PU140_pre4_rereco02_170501.root", 
+      "title": "Phase II Signal PU140 - pre4"
+    }, 
+    {
+      "color": 2, 
+      "effrate": "muon_PFIsolation04 < 0.38800", 
+      "shape": 21, 
+      "filename": "/cms/scratch/quark2930/Work/muon_upgrade/samples/170501/run_ZMM_PU200_pre4_rereco02_170501.root", 
+      "title": "Phase II Signal PU200 - pre4"
+    }
+  ], 
+  "min": 0, 
+  "max": 1.2, 
+  "plotvar": "nvertex", 
+  "tree": "gen", 
+  "binning": [
+    60, 
+    0, 
+    240
+  ], 
+  "filename": "plots/20170326/effbkgplots_novtxcut/rereco/Tight_1.7/eff/NV_PF04.png", 
+  "cutconfig": {
+    "Eta": "2.4", 
+    "ID": "Tight_1.7", 
+    "pT": "15"
+  }, 
+  "xtitle": "Numer of vertex", 
+  "effrate": "muon_is%(ID)s", 
+  "title": "Z/#gamma^{*}#rightarrow#font[12]{#mu#mu} and QCD events, p_{T} > %(pT)s GeV, |#eta| < %(Eta)s\n%(ID)s Muon, cut by PF04 isolation", 
+  "legend": {
+    "top": 0.2, 
+    "right": 0.85, 
+    "bottom": 0.4, 
+    "left": 0.5
+  }, 
+  "ytitle": "Efficiency"
+}
